@@ -1,0 +1,427 @@
+<!doctype html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aymen Hakkaoui // Software Engineer — Edgerunner Portfolio</title>
+  <meta name="description" content="Aymen Hakkaoui — Software Engineer in Casablanca. Projects in C/C++, Python, JavaScript/React and Supabase: OS kernel, dashboards, games and web apps." />
+  <meta name="author" content="Aymen Hakkaoui" />
+  <link rel="canonical" href="/" />
+
+  <meta property="og:title" content="Aymen Hakkaoui // Software Engineer" />
+  <meta property="og:description" content="Edgerunner-style portfolio — C/C++, Python, JavaScript/React, Supabase." />
+  <meta property="og:type" content="website" />
+  <meta name="twitter:card" content="summary_large_image" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Rajdhani:wght@400;500;600;700&family=Noto+Naskh+Arabic:wght@400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css"/>
+  <link rel="icon" type="image/png" href="favicon.png">
+</head>
+<body>
+  <a href="#shards" class="skip-link" data-i18n="a11y.skip">Skip to content</a>
+
+  <div id="boot" class="boot" role="status" aria-live="polite">
+    <div class="boot-inner">
+      <div class="boot-head">
+        <span class="dot-red"></span>
+        <span>ARASAKA OS v2.077</span>
+        <span class="boot-time" id="boot-time"></span>
+      </div>
+      <div class="hr-cyan"></div>
+      <p id="boot-l1" class="boot-line">&gt; <span data-i18n="boot.line1"></span></p>
+      <p id="boot-l2" class="boot-line">&gt; <span data-i18n="boot.line2"></span></p>
+      <p id="boot-l3" class="boot-line boot-l3">&gt; <span data-i18n="boot.line3"></span></p>
+      <div class="boot-name-wrap">
+        <p class="boot-name"><span id="boot-name"></span><span class="blink">█</span></p>
+      </div>
+      <div class="boot-stats">
+        <span>CPU: 99%</span>
+        <span>MEM: 16.4GB/16GB</span>
+        <span class="text-red" data-i18n="boot.firewall">FIREWALL: BYPASSED</span>
+      </div>
+      <button id="boot-skip" class="boot-skip clip-tag" data-i18n="boot.skip">SKIP INTRO [ESC]</button>
+    </div>
+  </div>
+
+  <div class="vignette"></div>
+  <div class="scanbar"></div>
+  <div class="scanlines"></div>
+  <div class="crt-flicker"></div>
+
+  <header class="hud">
+    <div class="hud-inner container">
+      <div class="hud-left">
+        <span class="dot-cyan blink-slow"></span>
+        <span class="text-cyan glow-cyan hide-sm">A.HKK//<span data-i18n="status.online"></span></span>
+        <span class="muted hide-md">[LAT: 33.5731° // LON: -7.5898°]</span>
+      </div>
+      <nav class="hud-nav hide-md" aria-label="Main">
+        <a href="#shards" data-i18n="nav.projects"></a>
+        <a href="#cyberware" data-i18n="nav.skills"></a>
+        <a href="#academy" data-i18n="nav.education"></a>
+        <a href="#uplink" data-i18n="nav.contact"></a>
+      </nav>
+      <div class="hud-right">
+        <button id="lang-toggle" class="lang-btn clip-tag" aria-label="Toggle language">
+          <span class="op-60">&gt;</span>
+          <span id="lang-current">EN</span> / <span id="lang-other">AR</span>
+        </button>
+        <button id="menu-toggle" class="lang-btn clip-tag show-md" aria-label="Toggle menu" aria-expanded="false" aria-controls="mobile-nav">☰</button>
+      </div>
+    </div>
+    <nav id="mobile-nav" class="mobile-nav" aria-label="Mobile" hidden>
+      <a href="#shards" data-i18n="nav.projects"></a>
+      <a href="#cyberware" data-i18n="nav.skills"></a>
+      <a href="#academy" data-i18n="nav.education"></a>
+      <a href="#uplink" data-i18n="nav.contact"></a>
+    </nav>
+  </header>
+
+  <main>
+
+    <section class="hero grid-bg noise-bg">
+      <div class="corner-frame"></div>
+      <div class="corner tl"></div><div class="corner tr"></div>
+      <div class="corner bl"></div><div class="corner br"></div>
+
+      <div class="container hero-grid">
+        <div class="hero-left">
+          <div class="badge-warn clip-tag fade-up">
+            <span class="dot-red blink-slow"></span>
+            <span data-i18n="hero.badge">⚠ HIGH-VALUE TARGET // EDGERUNNER ACTIVE</span>
+          </div>
+
+          <h1 class="hero-title">
+            <span class="glitch-text glow-cyan" data-i18n="hero.first" data-text="AYMEN">AYMEN</span>
+            <span class="glitch-text glow-cyan" data-i18n="hero.last" data-text="HAKKAOUI">HAKKAOUI</span>
+          </h1>
+
+          <div class="fade-up delay-3">
+            <p class="hero-role">&gt; <span data-i18n="hero.role"></span>_<span class="blink">█</span></p>
+            <p class="muted hero-tag" data-i18n="hero.tag"></p>
+          </div>
+
+          <div class="hero-cta fade-up delay-4">
+            <a href="#uplink" class="btn-primary clip-notch">▶ <span data-i18n="hero.cta"></span></a>
+            <a href="#shards" class="btn-ghost clip-notch">▼ <span data-i18n="hero.cta2"></span></a>
+          </div>
+        </div>
+
+        <aside class="hero-right">
+          <div class="hud-panel clip-shard">
+            <div class="hud-panel-head">
+              <span>BIOMON_v3.4</span>
+              <span class="blink-slow">● <span data-i18n="hud.rec">REC</span></span>
+            </div>
+            <div class="stat"><div class="stat-row"><span class="muted" data-i18n="hud.sync">NEURAL_SYNC</span><span class="text-cyan">98.7%</span></div><div class="bar"><div class="bar-fill bar-cyan" style="--w:98%"></div></div></div>
+            <div class="stat"><div class="stat-row"><span class="muted" data-i18n="hud.integrity">CODE_INTEGRITY</span><span class="text-cyan">100%</span></div><div class="bar"><div class="bar-fill bar-cyan" style="--w:100%"></div></div></div>
+            <div class="stat"><div class="stat-row"><span class="muted" data-i18n="hud.caffeine">CAFFEINE_LVL</span><span class="text-red" data-i18n="hud.crit">CRIT</span></div><div class="bar"><div class="bar-fill bar-red" style="--w:92%"></div></div></div>
+            <div class="stat"><div class="stat-row"><span class="muted" data-i18n="hud.deadline">DEADLINE_BUFFER</span><span class="text-cyan">42h</span></div><div class="bar"><div class="bar-fill bar-cyan" style="--w:60%"></div></div></div>
+            <div class="hud-panel-foot">
+              <div><span data-i18n="hud.shards">SHARDS</span><span class="text-cyan">8</span></div>
+              <div><span data-i18n="hud.stack">STACK</span><span class="text-cyan">C/C++ · PY · JS</span></div>
+              <div><span data-i18n="hud.status">STATUS</span><span class="text-cyan" data-i18n="hud.open">OPEN TO WORK</span></div>
+            </div>
+          </div>
+        </aside>
+      </div>
+    </section>
+
+    <section id="shards" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-idx">// 02</span>
+          <h2 class="section-title glow-cyan" data-i18n="section.projects"></h2>
+          <p class="muted" data-i18n="section.projects.sub"></p>
+        </div>
+
+        <div class="filters reveal" id="filters" role="group" aria-label="Filter projects">
+          <button class="filter-btn clip-tag active" data-filter="all" data-i18n="filter.all">ALL</button>
+          <button class="filter-btn clip-tag" data-filter="web" data-i18n="filter.web">WEB</button>
+          <button class="filter-btn clip-tag" data-filter="systems" data-i18n="filter.systems">SYSTEMS</button>
+          <button class="filter-btn clip-tag" data-filter="tools" data-i18n="filter.tools">TOOLS</button>
+        </div>
+
+        <div class="shards-grid" id="shards-grid">
+
+          <article class="shard reveal" data-cat="web">
+            <div class="ghost ghost-red"></div>
+            <div class="ghost ghost-cyan"></div>
+            <div class="shard-card clip-shard">
+              <div class="shard-head">
+                <span class="muted">SHARD_001</span>
+                <span class="threat threat-high clip-tag">⚠ <span data-i18n="threat.high">THREAT: HIGH</span></span>
+              </div>
+              <h3 class="shard-title glow-cyan" data-i18n="shard.fishy.title">Fishy Gains</h3>
+              <p class="shard-sub" data-i18n="shard.fishy.sub">// Team Project — Contributor</p>
+              <p class="shard-desc" data-i18n="shard.fishy.desc"></p>
+              <div class="tags">
+                <span class="tag">JavaScript</span><span class="tag">React</span><span class="tag">CSS3</span><span class="tag">Git</span><span class="tag">Code Review</span>
+              </div>
+              <div class="shard-foot">
+                <span>ROLE: COLLABORATOR</span>
+                <span><span class="dot-cyan blink-slow"></span> <span data-i18n="status.active">ACTIVE</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="shard reveal" data-cat="web">
+            <div class="ghost ghost-red"></div>
+            <div class="ghost ghost-cyan"></div>
+            <div class="shard-card clip-shard">
+              <div class="shard-head">
+                <span class="muted">SHARD_002</span>
+                <span class="threat threat-med clip-tag">⚠ <span data-i18n="threat.med">THREAT: MED</span></span>
+              </div>
+              <h3 class="shard-title glow-cyan" data-i18n="shard.portfolio.title">Cyberpunk Portfolio</h3>
+              <p class="shard-sub" data-i18n="shard.portfolio.sub">// Vanilla JS Single Page</p>
+              <p class="shard-desc" data-i18n="shard.portfolio.desc"></p>
+              <div class="tags">
+                <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">Vanilla JS</span><span class="tag">i18n / RTL</span><span class="tag">A11y</span>
+              </div>
+              <div class="shard-foot">
+                <span>HASH: 0x_68746D6C5F6373735F6A73</span>
+                <span><span class="dot-cyan blink-slow"></span> <span data-i18n="status.decrypted">DECRYPTED</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="shard reveal" data-cat="tools">
+            <div class="ghost ghost-red"></div>
+            <div class="ghost ghost-cyan"></div>
+            <div class="shard-card clip-shard">
+              <div class="shard-head">
+                <span class="muted">SHARD_003</span>
+                <span class="threat threat-high clip-tag">⚠ <span data-i18n="threat.high">THREAT: HIGH</span></span>
+              </div>
+              <h3 class="shard-title glow-cyan" data-i18n="shard.1.title">Universal Lead Dashboard</h3>
+              <p class="shard-sub" data-i18n="shard.1.sub">// Netlify / Supabase Admin Tool</p>
+              <p class="shard-desc" data-i18n="shard.1.desc"></p>
+              <div class="tags">
+                <span class="tag">JavaScript</span><span class="tag">Supabase</span><span class="tag">Netlify Forms</span><span class="tag">CSV Export</span><span class="tag">CSS3</span>
+              </div>
+              <button id="export-btn" class="btn-export clip-notch">⬇ <span data-i18n="shard.export">EXPORT DATA CACHE [.csv]</span></button>
+              <div class="shard-foot">
+                <span>HASH: 0x_6A732F73757061626173</span>
+                <span><span class="dot-cyan blink-slow"></span> <span data-i18n="status.decrypted">DECRYPTED</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="shard reveal" data-cat="web">
+            <div class="ghost ghost-red"></div>
+            <div class="ghost ghost-cyan"></div>
+            <div class="shard-card clip-shard">
+              <div class="shard-head">
+                <span class="muted">SHARD_004</span>
+                <span class="threat threat-med clip-tag">⚠ <span data-i18n="threat.med">THREAT: MED</span></span>
+              </div>
+              <h3 class="shard-title glow-cyan" data-i18n="shard.safar.title">SafarByAriba Website</h3>
+              <p class="shard-sub" data-i18n="shard.safar.sub">// Client Site — Travel</p>
+              <p class="shard-desc" data-i18n="shard.safar.desc"></p>
+              <div class="tags">
+                <span class="tag">HTML5</span><span class="tag">CSS3</span><span class="tag">JavaScript</span><span class="tag">Responsive</span><span class="tag">SEO</span>
+              </div>
+              <div class="shard-foot">
+                <span>HASH: 0x_636C69656E745F736974</span>
+                <span><span class="dot-cyan blink-slow"></span> <span data-i18n="status.deployed">DEPLOYED</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="shard reveal" data-cat="systems">
+            <div class="ghost ghost-red"></div>
+            <div class="ghost ghost-cyan"></div>
+            <div class="shard-card clip-shard">
+              <div class="shard-head">
+                <span class="muted">SHARD_005</span>
+                <span class="threat threat-high clip-tag">⚠ <span data-i18n="threat.high">THREAT: HIGH</span></span>
+              </div>
+              <h3 class="shard-title glow-cyan" data-i18n="shard.2.title">Mini OS Kernel</h3>
+              <p class="shard-sub" data-i18n="shard.2.sub">// x86_64 Bare Metal</p>
+              <p class="shard-desc" data-i18n="shard.2.desc"></p>
+              <div class="tags">
+                <span class="tag">C</span><span class="tag">Assembly</span><span class="tag">Paging</span><span class="tag">QEMU</span><span class="tag">Docker</span>
+              </div>
+              <div class="shard-foot">
+                <span>HASH: 0x_6320616E6420617373656D626C79</span>
+                <span><span class="dot-cyan blink-slow"></span> <span data-i18n="status.decrypted">DECRYPTED</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="shard reveal" data-cat="systems">
+            <div class="ghost ghost-red"></div>
+            <div class="ghost ghost-cyan"></div>
+            <div class="shard-card clip-shard">
+              <div class="shard-head">
+                <span class="muted">SHARD_006</span>
+                <span class="threat threat-med clip-tag">⚠ <span data-i18n="threat.med">THREAT: MED</span></span>
+              </div>
+              <h3 class="shard-title glow-cyan" data-i18n="shard.snake.title">Snake Game (SFML)</h3>
+              <p class="shard-sub" data-i18n="shard.snake.sub">// C++ Game Loop</p>
+              <p class="shard-desc" data-i18n="shard.snake.desc"></p>
+              <div class="tags">
+                <span class="tag">C++</span><span class="tag">SFML</span><span class="tag">OOP</span><span class="tag">Game Loop</span><span class="tag">Collision</span>
+              </div>
+              <div class="shard-foot">
+                <span>HASH: 0x_6370705F73666D6C</span>
+                <span><span class="dot-cyan blink-slow"></span> <span data-i18n="status.decrypted">DECRYPTED</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="shard reveal" data-cat="tools">
+            <div class="ghost ghost-red"></div>
+            <div class="ghost ghost-cyan"></div>
+            <div class="shard-card clip-shard">
+              <div class="shard-head">
+                <span class="muted">SHARD_007</span>
+                <span class="threat threat-med clip-tag">⚠ <span data-i18n="threat.med">THREAT: MED</span></span>
+              </div>
+              <h3 class="shard-title glow-cyan" data-i18n="shard.3.title">Student Grades Management System</h3>
+              <p class="shard-sub" data-i18n="shard.3.sub">// Python CLI</p>
+              <p class="shard-desc" data-i18n="shard.3.desc"></p>
+              <div class="tags">
+                <span class="tag">Python</span><span class="tag">OOP</span><span class="tag">Algorithms</span><span class="tag">CLI</span><span class="tag">File I/O</span>
+              </div>
+<pre class="cli-pre" dir="ltr">$ python grades.py --sort=avg --desc
+&gt; Loaded 247 records from grades.dat
+&gt; Sorting: QuickSort O(n log n)
+&gt; ▓▓▓▓▓▓▓▓▓▓ 100% [DONE]</pre>
+              <div class="shard-foot">
+                <span>HASH: 0x_707974686F6E</span>
+                <span><span class="dot-cyan blink-slow"></span> <span data-i18n="status.decrypted">DECRYPTED</span></span>
+              </div>
+            </div>
+          </article>
+
+          <article class="shard reveal" data-cat="web">
+            <div class="ghost ghost-red"></div>
+            <div class="ghost ghost-cyan"></div>
+            <div class="shard-card clip-shard">
+              <div class="shard-head">
+                <span class="muted">SHARD_008</span>
+                <span class="threat threat-med clip-tag">⚠ <span data-i18n="threat.med">THREAT: MED</span></span>
+              </div>
+              <h3 class="shard-title glow-cyan" data-i18n="shard.quiz.title">JS / React / DOM / npm Quiz</h3>
+              <p class="shard-sub" data-i18n="shard.quiz.sub">// Learning Tool</p>
+              <p class="shard-desc" data-i18n="shard.quiz.desc"></p>
+              <div class="tags">
+                <span class="tag">JavaScript</span><span class="tag">React</span><span class="tag">DOM API</span><span class="tag">npm</span><span class="tag">State</span>
+              </div>
+              <div class="shard-foot">
+                <span>HASH: 0x_71756A7A5F6A73</span>
+                <span><span class="dot-cyan blink-slow"></span> <span data-i18n="status.decrypted">DECRYPTED</span></span>
+              </div>
+            </div>
+          </article>
+        </div>
+
+        <p class="muted filter-empty" id="filter-empty" data-i18n="filter.empty" hidden>NO SHARDS MATCH THIS FILTER.</p>
+      </div>
+    </section>
+
+    <section id="cyberware" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-idx">// 03</span>
+          <h2 class="section-title glow-cyan" data-i18n="section.skills"></h2>
+          <p class="muted" data-i18n="section.skills.sub"></p>
+        </div>
+
+        <div class="cyberware-grid">
+          <div class="module clip-shard reveal">
+            <div class="module-head"><span class="text-red" data-i18n="mod.core">// CORE_PROCESSING</span><span class="muted">SLOT_01</span></div>
+            <ul class="skill-list">
+              <li><span>C</span><span class="lvl">▓▓▓▓▓▓▓▓░░ 80%</span></li>
+              <li><span>C++ / SFML</span><span class="lvl">▓▓▓▓▓▓▓░░░ 70%</span></li>
+              <li><span>Python</span><span class="lvl">▓▓▓▓▓▓▓▓▓░ 90%</span></li>
+              <li><span>Assembly (x86_64)</span><span class="lvl">▓▓▓▓▓░░░░░ 55%</span></li>
+            </ul>
+          </div>
+          <div class="module clip-shard reveal">
+            <div class="module-head"><span class="text-red" data-i18n="mod.neural">// NEURAL_LINKS</span><span class="muted">SLOT_02</span></div>
+            <ul class="skill-list">
+              <li><span>HTML5</span><span class="lvl">▓▓▓▓▓▓▓▓▓▓ 95%</span></li>
+              <li><span>CSS3</span><span class="lvl">▓▓▓▓▓▓▓▓▓░ 90%</span></li>
+              <li><span>JavaScript (ES6+)</span><span class="lvl">▓▓▓▓▓▓▓▓░░ 85%</span></li>
+              <li><span>React</span><span class="lvl">▓▓▓▓▓▓▓░░░ 70%</span></li>
+            </ul>
+          </div>
+          <div class="module clip-shard reveal">
+            <div class="module-head"><span class="text-red" data-i18n="mod.ops">// OPS_TOOLKIT</span><span class="muted">SLOT_03</span></div>
+            <ul class="skill-list">
+              <li><span>Git / GitHub</span><span class="lvl">▓▓▓▓▓▓▓▓░░ 80%</span></li>
+              <li><span>Supabase / SQL</span><span class="lvl">▓▓▓▓▓▓▓░░░ 70%</span></li>
+              <li><span>Netlify / npm</span><span class="lvl">▓▓▓▓▓▓▓▓░░ 80%</span></li>
+              <li><span>Linux / QEMU / Docker</span><span class="lvl">▓▓▓▓▓▓░░░░ 65%</span></li>
+            </ul>
+          </div>
+          <div class="module clip-shard reveal">
+            <div class="module-head"><span class="text-red" data-i18n="mod.lang">// LANG_PACKS</span><span class="muted">SLOT_04</span></div>
+            <ul class="skill-list">
+              <li><span data-i18n="lang.ar">Arabic</span><span class="text-cyan" data-i18n="lvl.native">[NATIVE]</span></li>
+              <li><span data-i18n="lang.fr">French</span><span class="text-cyan" data-i18n="lvl.inter">[INTERMEDIATE]</span></li>
+              <li><span data-i18n="lang.en">English</span><span class="text-cyan" data-i18n="lvl.fluent">[FLUENT]</span></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="academy" class="section">
+      <div class="container">
+        <div class="section-head reveal">
+          <span class="section-idx">// 04</span>
+          <h2 class="section-title glow-cyan" data-i18n="section.education"></h2>
+          <p class="muted" data-i18n="section.education.sub"></p>
+        </div>
+
+        <div class="edu clip-shard reveal">
+          <div class="edu-head">
+            <span class="text-red" data-i18n="edu.center">TRAINING_CENTER_01</span>
+            <span class="muted">2024 — 2027</span>
+          </div>
+          <h3 class="edu-title glow-cyan" data-i18n="edu.title">FSAC // Faculté des Sciences Aïn Chock</h3>
+          <p class="edu-sub" data-i18n="edu.sub">// BS in Développement Informatique</p>
+          <p class="edu-desc"><span data-i18n="edu.desc"></span> <span class="text-cyan" data-i18n="edu.status">[IN PROGRESS]</span></p>
+          <div class="edu-foot">
+            <span>CERT_HASH: 0xFSAC_24_27</span>
+            <span><span class="dot-cyan blink-slow"></span> <span data-i18n="status.verified">VERIFIED</span></span>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer id="uplink" class="footer">
+    <div class="container footer-grid">
+      <div>
+        <p class="text-red">// <span data-i18n="footer.uplink">UPLINK</span></p>
+        <p><a href="mailto:aymenhakkaoui41@gmail.com">aymenhakkaoui41@gmail.com</a></p>
+        <p class="muted" data-i18n="footer.location">Casablanca // Morocco</p>
+      </div>
+      <div>
+        <p class="text-red">// <span data-i18n="footer.channels">CHANNELS</span></p>
+        <ul class="channels">
+          <li><a href="https://github.com/TheDeadShadow47" target="_blank" rel="noopener">▸ GitHub</a></li>
+          <li><a href="https://www.linkedin.com/in/aymen-hakkaoui-945815345/" target="_blank" rel="noopener">▸ LinkedIn</a></li>
+          <li><a href="https://www.instagram.com/ay.hk47/" target="_blank" rel="noopener">▸ Instagram</a></li>
+        </ul>
+      </div>
+      <div>
+        <p class="text-red">// <span data-i18n="footer.system">SYSTEM</span></p>
+        <p class="muted"><span data-i18n="footer.lang">LANG</span>: <span id="footer-lang">EN</span></p>
+        <p class="muted">BUILD: v2.077.5-edgerunner</p>
+        <p class="text-cyan blink-slow">● <span data-i18n="footer.secure">CONNECTION SECURE</span></p>
+      </div>
+    </div>
+    <div class="footer-bottom" data-i18n="footer.copy">© 2077 A.HAKKAOUI // ALL DATA SHARDS RESERVED // NIGHT CITY NET</div>
+  </footer>
+
+  <script src="script.js" defer></script>
+</body>
+</html>
