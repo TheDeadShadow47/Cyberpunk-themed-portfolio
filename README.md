@@ -1,8 +1,19 @@
+<div align="center">
+
+<img src="favicon.png" alt="Cyberpunk Portfolio Logo" width="140">
+
 # Cyberpunk-Themed Portfolio
 
 ### A Futuristic Developer Portfolio Inspired by Cyberpunk 2077
 
 A visually immersive, single-page developer portfolio built with **HTML, CSS, and Vanilla JavaScript**. Featuring a cinematic boot sequence, futuristic HUD interface, animated cyberpunk effects, interactive project cards, and multilingual support, this portfolio blends modern web development with sci-fi aesthetics.
+
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
+![Responsive](https://img.shields.io/badge/Responsive-Yes-success?style=for-the-badge)
+
+</div>
 
 ---
 
@@ -38,13 +49,13 @@ Built entirely with **HTML**, **CSS**, and **Vanilla JavaScript**, the project r
 
 ## 🛠 Tech Stack
 
-| Category     | Technology                       |
-|--------------|-----------------------------------|
-| Markup       | HTML5                             |
-| Styling      | CSS3                              |
-| Programming  | Vanilla JavaScript                |
-| Fonts        | Google Fonts                      |
-| Deployment   | GitHub Pages / Netlify / Vercel   |
+| Category    | Technology                       |
+|-------------|-----------------------------------|
+| Markup      | HTML5                             |
+| Styling     | CSS3                              |
+| Programming | Vanilla JavaScript                |
+| Fonts       | Google Fonts                      |
+| Hosting     | GitHub Pages / Netlify / Vercel   |
 
 ---
 
@@ -66,27 +77,45 @@ Cyberpunk-Portfolio/
 
 ## 🚀 Getting Started
 
-### Clone the Repository
+Clone the repository
 
 ```bash
 git clone https://github.com/yourusername/cyberpunk-portfolio.git
 ```
 
-### Navigate Into the Project
+Enter the project directory
 
 ```bash
 cd cyberpunk-portfolio
 ```
 
-### Open the Application
-
-Open:
+Open the project
 
 ```text
 app/index.html
 ```
 
-Or launch it using a local development server such as **VS Code Live Server**.
+or launch it with your preferred local development server such as **VS Code Live Server**.
+
+---
+
+## 🌐 Deployment
+
+This project can be deployed to any static hosting provider.
+
+1. Push the repository to GitHub.
+2. Connect the repository to your hosting provider of choice.
+3. Deploy the site.
+4. Every future push automatically triggers a new deployment.
+
+No server configuration is required.
+
+Examples of supported hosts:
+
+- GitHub Pages
+- Netlify
+- Vercel
+- Cloudflare Pages
 
 ---
 
@@ -156,21 +185,6 @@ Highlights include:
 - Minimal dependencies
 - Easy deployment
 - Simple maintenance
-
----
-
-## 🚀 Deployment
-
-The project can be deployed to any static hosting provider.
-
-Examples include:
-
-- GitHub Pages
-- Netlify
-- Vercel
-- Cloudflare Pages
-
-Simply upload the project files or connect the repository for automatic deployments.
 
 ---
 
